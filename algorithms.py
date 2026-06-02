@@ -3,7 +3,7 @@ def coloration(G, sommets):
     ordre = sorted(sommets, key=lambda v: len(G[v]), reverse=True)
 
     for v in ordre:
-        interdites = {couleurs[u] for u in G[v] if u in couleur}        
+        interdites = {couleurs[u] for u in G[v] if u in couleurs}        
 
         c = 1
         while c in interdites:
