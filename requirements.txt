@@ -1,0 +1,10 @@
+Paquets necessaires :
+-Streamlit(pour l'interface graphique)
+-PyVis(pour la visualisation du graphe)
+
+Installation:
+pip install streamlit pyvis
+
+##############
+Run:
+streamlit run main.py
