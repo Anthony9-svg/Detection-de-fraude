@@ -1,2 +1,3 @@
-# Detection-de-fraude
-Détection de fraude selon les cas a etudier a partir d'une modellisation en graphes des données 
+git clone https://github.com/Anthony9-svg/Detection-de-fraude.git
+(Install all packages in requirements.txt)
+cd Detection-de-fraude && streamlit run main.py
