@@ -5,7 +5,7 @@ from collections import Counter
 
 def creer_graphe(n):
     n=int(n)
-    p = (log(n)+1)/n
+    p = (log(n)+2)/n
 
     noeuds = [i for i in range(n)]
     relations = set()
